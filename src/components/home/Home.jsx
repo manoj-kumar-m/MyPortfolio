@@ -28,10 +28,10 @@ const Home = () => {
 
             <p>I love building web apps for productive uses and am a passionate learner and coder. I am also a competitive coding enthusiast and am working on excelling at these skills.</p>
 
-            <div className='hero_btn d_flex'>
+            <div className='hero_btn'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
-                <div className='button'>
+                <div className='button '>
                     <a href="https://github.com/manoj-kumar-m"  target='blank'>
                       <button className='btn_shadow'>
                           <i class='bx bxl-github'></i>
