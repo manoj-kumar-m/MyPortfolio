@@ -90,7 +90,7 @@ const Home = () => {
               <h1>MKM</h1>
             </div>
           </div> */}
-          <div className="right">
+          <div className="right righthome">
             <div className="clock-container">
               <div className="clock">
 
