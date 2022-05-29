@@ -48,6 +48,9 @@
   .Resume .left {
     position: relative;
   }
+  .rate{
+    margin-top: 10px;
+  }
   .Resume .left::after {
     content: "";
     position: absolute;
@@ -89,6 +92,7 @@
     }
     .Resume .left::after {
       top: 14%;
-      height: 105vh;
+      height: 110vh;
     }
+    
   }

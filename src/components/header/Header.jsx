@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState,useEffect } from "react"
 import "./Header.css"
 // import logo from "../pic/logo.png"
 
@@ -8,8 +8,16 @@ const Header = () => {
     const header = document.querySelector(".header")
     header.classList.toggle("active", window.scrollY > 90)
   })
-
   const [Mobile, setMobile] = useState(false)
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      setMobile(false)
+      document.body.classList.add('f_flex')
+      document.body.classList.add('link')
+      document.body.classList.remove('nav-links-mobile')
+    }
+  }, [])
+  
   return (
     <>
       <header className='header'>
@@ -21,14 +29,14 @@ const Header = () => {
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
              
-              <li><a href='#home'>home</a></li>
-              <li><a href='#education'>education</a></li>
-              <li><a href='#skills'>skills</a></li>
-              <li><a href='#projects'>projects</a></li>
-              <li><a href='#blog'>blog</a></li>
-              <li><a href='#contact'>contact</a></li>
+              <li><a href='#home'>HOME</a></li>
+              <li><a href='#education'>EDUCATION</a></li>
+              <li><a href='#skills'>SKILLS</a></li>
+              <li><a href='#projects'>PROJECTS</a></li>
+              <li><a href='#blog'>BLOG</a></li>
               <li>
-                <button className='home-btn'>BUY NOW</button>
+                
+              <button ><a href='#contact' className='home-btn'>CONTACT</a></button>
               </li>
             </ul>
 
