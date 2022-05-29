@@ -48,8 +48,9 @@ header {
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
     border-radius:50% ;
     padding: 0 12px ;
+    width: 70px;
     color: #ff014f;
-    margin-top: -8px;
+    margin-top: -6px;
   }
   .header.active {
     height: 12vh;
