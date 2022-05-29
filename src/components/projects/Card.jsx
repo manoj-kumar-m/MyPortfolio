@@ -7,6 +7,7 @@ const Card = (props) => {
     setModal(!modal)
   }
 
+  
   if (modal) {
     document.body.classList.add("active-modal")
   } else {
@@ -14,7 +15,7 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className='box btn_shadow'>
+      <div className='box btn_shadow port'>
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
@@ -35,29 +36,37 @@ const Card = (props) => {
       {/* Popup box */}
       {modal && (
         <div className='modal'>
-          <div onClick={toggleModal} className='overlay'></div>
+          <div onClick={toggleModal} className='overlay'>
           <div className='modal-content d_flex '>
             <div className='modal-img left'>
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+                <p>{props.content}</p>
+                <h3>Langauges</h3>
+                {props.language.map((val,i) => {
+                  return <button className="btn" key={i} disabled>{val}</button>
+                })}
+                
+                  
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
                   LIKE THIS <i class='bx bxs-like'></i>
                 </button>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='bx bx-chevron-right'></i>
-                </button>
+                <a href={props.gitlink} target="blank">
+                  <button className='btn_shadow'>
+                    VIEW PROJECT<i class='bx bx-chevron-right'></i>
+                  </button>
+                </a>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                     <i class='bx bx-x'></i>
               </button>
+              </div>
+              </div>
             </div>
-          </div>
         </div>
       )}
     </>

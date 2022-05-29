@@ -1,6 +1,9 @@
 .Portfolio {
   position: relative;
 }
+.port{
+  overflow: hidden;
+}
 .Portfolio .box {
   border-radius: 10px;
   /* position: relative; */
@@ -20,13 +23,16 @@
   height: 300px;
   overflow: hidden;
   transition: 0.5s;
+  border-radius: 10px;
+
 }
 .Portfolio img {
   width: 100%;
   border-radius: 10px;
   transition: 0.5s;
+  height: 300px;
 }
-.Portfolio .box .img:hover img {
+.Portfolio .box .img img:hover {
   transform: scale(1.2);
 }
 .Portfolio .category {
@@ -84,6 +90,8 @@ body.active-modal {
   bottom: 0;
   position: fixed;
   z-index: 9999;
+  margin-bottom: 50px;
+
 }
 
 .overlay {
@@ -93,11 +101,12 @@ body.active-modal {
   position: absolute;
   top: 12%;
   left: 8%;
+  right: 8%;
+  bottom: 12%;
   line-height: 1.4;
   background: #f0f3f5;
   padding: 14px 28px;
   border-radius: 3px;
-
   z-index: 9999;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   padding: 50px;
@@ -105,18 +114,36 @@ body.active-modal {
   height: fit-content;
 
 }
-
+.modal-img img{
+  height: 450px;
+  object-fit: cover;
+}
 .modal-text {
-  padding: 0 100px 0 50px;
+  padding: 0 30px 0 50px;
 }
 .modal-text h1 {
   margin: 20px 0 20px 0;
   font-size: 30px;
 }
 .modal-text p {
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 20px;
   line-height: 25px;
+  text-align: justify;
+}
+
+.modal .btn{
+  padding: 8px 12px;
+  background: #ff014f;
+  color: white;
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+.modal-text h3{
+  padding: 10px 0;
+  color: #555555;
 }
 .modal-text button {
   margin-right: 20px;
@@ -139,6 +166,15 @@ body.active-modal {
 .modal-text button.close-modal i {
   margin: 0;
 }
+
+@media (max-width: 960px) {
+  .modal-text p {
+    font-size: 14px;
+  }
+  .modal-img img{
+    height: 80%;
+  }
+}
 /*------------popup--------*/
 @media (max-width: 768px) {
   .modal,
@@ -151,6 +187,9 @@ body.active-modal {
   }
   .modal-content {
     flex-direction: column;
+  }
+  .modal-text p {
+    font-size: 14px;
   }
   .modal .right,
   .modal .left {

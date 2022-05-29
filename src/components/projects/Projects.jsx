@@ -16,7 +16,17 @@ const Projects = () => {
             <div className='content grid'>
                 {
                     Projects_Data.map((value, index) => {
-                        return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+                      return (
+                        <Card
+                            key={index}
+                            image={value.image}
+                            category={value.category}
+                            totalLike={value.totalLike}
+                            title={value.title}
+                            language={value.languages}
+                            content={value.content}
+                            gitlink={value.gitlink}
+                        />)
                 })}
 
             
