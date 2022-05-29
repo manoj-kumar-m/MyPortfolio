@@ -10,7 +10,6 @@ const Projects = () => {
       <section className='Portfolio top' id='projects'>
         <div className='container'>
             <div className='heading text-center '>
-                <hr />
                 <h1>Projects</h1>
             </div>
 
