@@ -250,6 +250,38 @@
   .righthome::before{
     bottom: -100px;
 }
+.hour,.hr{
+  width: 140px;
+  height: 140px;
+}
+.min,.mn{
+  width: 210px;
+  height: 210px;
+}
+.sec,.sc{
+  width: 240px;
+  height: 240px;
+}
+
+.hr::before{
+ 
+  width: 8px;
+  height: 75px;
+  
+
+}
+.mn::before{
+
+  width: 4px;
+  height: 105px;
+
+}
+.sc::before{
+ 
+  width: 2px;
+  height: 140px;
+
+}
 }
 
 @media (max-width: 650px) {
@@ -275,8 +307,8 @@
       bottom: -100px;
   }
   .hour,.hr{
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
   }
   .min,.mn{
     width: 110px;
@@ -287,18 +319,17 @@
     height: 125px;
   }
   .hr::before{
-    width: 4px;
-    height: 40px;
+    width: 5px;
+    height: 45px;
   }
   .mn::before{
-    width: 2px;
-    height: 55px;
+    width: 3px;
+    height: 65px;
   }
   .sc::before{
-    width: 1px;
-    height: 75px;
+    width: 2px;
+    height: 85px;
   }
-
   
 }
 
@@ -307,7 +338,35 @@
     text-align: center;
     min-width: 300px;
   }
+  .hour,.hr{
+    width: 60px;
+    height: 60px;
+  }
+  .min,.mn{
+    width: 80px;
+    height: 80px;
+  }
+  .sec,.sc{
+    width: 100px;
+    height: 100px;
+  }
+  .hr::before{
+    width: 4px;
+    height: 35px;
+  }
+  .mn::before{
+    width: 2px;
+    height: 40px;
+  }
+  .sc::before{
+    width: 1px;
+    height: 50px;
+  }
+  .clock-container{
+    min-width: 150px;
+    min-height: 150px;
 
+  }
 
 }
 
