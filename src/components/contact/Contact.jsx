@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import contact1 from "./contact1.png"
 import "./Contact.css"
-
+import emailjs from 'emailjs-com'
 const Contact = () => {
   const [data, setData] = useState({
     fullname: "",
@@ -23,21 +23,12 @@ const Contact = () => {
 
   const formSubmit = (event) => {
     event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-        My phone number is ${data.phone}. 
-        My email address is ${data.email}. 
-        My Subject on  ${data.subject}. 
-        Here is my message I want to say : ${data.message}. 
-	`
-      )
-    //   const { name, value } = event.target
-    //   setData((preVal) => {
-    //     return {
-    //       ...preVal,
-    //       [name]: '',
-    //     }
-    //   })
+
+    emailjs.sendForm('service_r9lusad', 'template_brnmbzf', event.target, 'kdK_Dr-BYw9yITW7T')
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+    
+
   }
   return (
     <>
@@ -61,7 +52,7 @@ const Contact = () => {
                   
                   <p>I am available for freelance work. Connect with me </p> <br />
                   <p><b>Phone</b> : +91 8431189610</p>
-                  <p><b>Email </b> :  manojkumarm0136@gmail.com</p> 
+                  <p><b>Email </b> :  manoj060301@gmail.com</p> 
                   <p><b>Location</b> : Bengaluru, India</p><br /><br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>

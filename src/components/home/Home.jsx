@@ -1,8 +1,32 @@
-import React from "react"
+import React,{useEffect} from "react"
 import "./Home.css"
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
+
+  
+  useEffect(() => {
+    const deg = 6;
+    const hr = document.querySelector('#hr')
+    const mn = document.querySelector('#mn')
+    const sc = document.querySelector('#sc')
+    setInterval(() => {
+
+      let day = new Date();
+      let hh = day.getHours() * 30;
+      let ss = day.getSeconds() * deg;
+      let mm = day.getMinutes() * deg;
+
+      hr.style.transform = `rotateZ(${hh + (mm / 12)}deg)`;
+      mn.style.transform = `rotateZ(${(mm)}deg)`;
+      sc.style.transform = `rotateZ(${(ss)}deg)`;
+
+    })
+  
+   
+  }, []) 
+  
+
   return (
     <>
       <section className='hero' id='home'>
@@ -61,10 +85,30 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className='right'>
+          {/* <div className='right'>
             <div className='right_img'>
               <h1>MKM</h1>
             </div>
+          </div> */}
+          <div className="right">
+            <div className="clock-container">
+              <div className="clock">
+
+                <div className="hour">
+                  <div className="hr" id="hr"></div>
+                </div>
+
+                <div className="min">
+                  <div className="mn" id="mn"></div>
+                </div>
+
+                <div className="sec">
+                  <div className="sc" id="sc"></div>
+                </div>
+            </div>
+          </div>
+
+
           </div>
         </div>
       </section>
