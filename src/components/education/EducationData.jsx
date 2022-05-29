@@ -26,8 +26,24 @@ const EducationData = [
     {
       id: 4,
       category: "experience",
-      year: "Internship (2004 - 2008) ",
-      title: "Samsung Intern",
+      year: "Internship (2022 - present) ",
+      title: "Samsung Internship ",
+      desc: "currently interning at Samsung R & D Institute, India under PRISM program",
+      
+    },
+    {
+      id: 5,
+      category: "experience",
+      year: "Internship ((2022 - present) ",
+      title: "Samsung Intern PRISM  Program",
+      desc: "currently interning at Samsung R & D Institute, India under PRISM program",
+      
+    },
+    {
+      id: 6,
+      category: "experience",
+      year: "Internship (2022 - present) ",
+      title: "Samsung Intern  PRISM  Program",
       desc: "currently interning at Samsung R & D Institute, India under PRISM program",
       
     },

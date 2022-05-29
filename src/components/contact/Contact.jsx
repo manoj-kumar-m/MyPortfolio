@@ -59,24 +59,32 @@ const Contact = () => {
                   
                   <h1>Manoj Kumar. M</h1>
                   
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +91 8431189610</p>
-                  <p>Email  :  manojkumarm0136@gmail.com</p> 
-                  <p>Location: Bengaluru, India</p><br /><br />
+                  <p>I am available for freelance work. Connect with me </p> <br />
+                  <p><b>Phone</b> : +91 8431189610</p>
+                  <p><b>Email </b> :  manojkumarm0136@gmail.com</p> 
+                  <p><b>Location</b> : Bengaluru, India</p><br /><br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
-                        <i class='bx bxl-github' ></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='bx bxl-linkedin'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='bx bxl-instagram'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='bx bxl-twitter'></i>
-                    </button>
+                    <a href="https://github.com/manoj-kumar-m"  target='blank'>
+                        <button className='btn_shadow'>
+                            <i class='bx bxl-github'></i>
+                        </button>
+                      </a>
+                    <a href="https://www.linkedin.com/in/manoj-kumar-m631/" target='blank'> 
+                      <button className='btn_shadow'>
+                        <i class='bx bxl-linkedin'></i>
+                        </button>
+                    </a>
+                    <a href="https://instagram.com/manoj__kumar__m"  target='blank'>
+                        <button className='btn_shadow'>
+                          <i class='bx bxl-instagram'></i>
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/MeManoj_Kumar" target="blank">
+                      <button className='btn_shadow'>
+                        <i className='bx bxl-twitter'></i>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

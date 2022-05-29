@@ -3,11 +3,17 @@
 }
 .Portfolio .box {
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
 }
 .Portfolio .box:hover {
   background: none;
   transform: translateY(-0);
+}
+.card{
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .Portfolio .img {
@@ -91,8 +97,7 @@ body.active-modal {
   background: #f0f3f5;
   padding: 14px 28px;
   border-radius: 3px;
-  max-width: 85%;
-  min-width: 60%;
+
   z-index: 9999;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   padding: 50px;

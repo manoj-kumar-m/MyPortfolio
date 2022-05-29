@@ -24,7 +24,7 @@ body {
 .f_flex {
   display: flex;
   flex-wrap: wrap;
- /* align-items: center; */
+ 
 }
 a {
   text-decoration: none;
@@ -57,7 +57,7 @@ button {
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 .btn_shadow:hover {
   background: #ff014f;
@@ -99,6 +99,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
+  width: 100%;
 }
 p {
   color: #3c3e41;
@@ -118,14 +119,18 @@ input {
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
-
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /*----------Footer---------*/
 @media (max-width: 768px) {
   body{
     width: 100vw;
   }
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .left,
   .right {

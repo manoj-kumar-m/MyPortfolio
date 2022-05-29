@@ -14,7 +14,7 @@ const Card = (props) => {
   }
   return (
     <>
-      <div className='box btn_shadow '>
+      <div className='box btn_shadow'>
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
@@ -36,7 +36,7 @@ const Card = (props) => {
       {modal && (
         <div className='modal'>
           <div onClick={toggleModal} className='overlay'></div>
-          <div className='modal-content d_flex'>
+          <div className='modal-content d_flex '>
             <div className='modal-img left'>
               <img src={props.image} alt='' />
             </div>

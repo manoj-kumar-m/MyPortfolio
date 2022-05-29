@@ -81,6 +81,9 @@
   text-align: center;
 
 }
+.col_1 h4{
+  margin-left: -30px;
+}
 
 @media (max-width: 1500px) {
   .hero h1{
@@ -93,6 +96,7 @@
     font-size: 16px;
   }
 }
+
 @media (max-width: 1240px) {
   .hero h1{
     font-size: 35px;
@@ -169,6 +173,7 @@
   .hero .right_img h1  {
     font-size: 40px;
   }
+  
 }
 
 @media (max-width: 420px) {
@@ -176,8 +181,6 @@
     text-align: center;
     min-width: 300px;
   }
-  .col_1 h4{
-    margin-right: 20px;
-  }
+
 
 }
