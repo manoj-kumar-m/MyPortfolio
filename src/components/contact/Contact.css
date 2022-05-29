@@ -1,5 +1,9 @@
+.Contact{
+  margin-bottom: 100px;
+}
 .Contact .left {
     width: 36%;
+    
   }
   .Contact .right {
     width: 60%;
@@ -13,7 +17,12 @@
   }
   .Contact .details p {
     font-size: 17px;
+    
   }
+ .Contact .img img{
+   max-width: 100%;
+   overflow-x: hidden;
+ }
   .Contact .button {
     margin-top: 20px;
   }
@@ -43,6 +52,20 @@
   .Contact .right button i {
     margin-left: 10px;
   }
+
+
+  @media (max-width: 1100px) {
+    .Contact .details p {
+      font-size: 14px;
+    }
+    .Contact .details h1{
+      font-size: 24px;
+    }
+    .details{
+      padding-right: 5px;
+    }
+  }
+
   @media (max-width: 768px) {
     .Contact .d_flex {
       flex-direction: column;
@@ -52,4 +75,5 @@
       width: 100%;
       margin-top: 50px;
     }
+   
   }
