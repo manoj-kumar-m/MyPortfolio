@@ -137,3 +137,11 @@ input {
     
   }
 }
+
+@media (max-width: 400px) {
+  .btn_shadow{
+  padding: 8px 12px;
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+}

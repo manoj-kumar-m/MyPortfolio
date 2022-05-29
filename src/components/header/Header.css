@@ -69,6 +69,9 @@ header {
     header ul {
       padding-top: 30px;
     }
+    /* .header{
+      min-width: 500px;
+    } */
     .header h3{
       padding: 0;
       border-radius: 0;
@@ -128,5 +131,12 @@ header {
     }
     .header.active {
       height: 10vh;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .open{
+      position: absolute;
+      right: 20px;
     }
   }
