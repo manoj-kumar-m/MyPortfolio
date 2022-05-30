@@ -2,6 +2,8 @@ import React from "react"
 import "./Education.css"
 import EducationData from "./EducationData"
 import EducationCard from "./EducationCard"
+import ExperienceData from "./ExperienceData"
+import ExperienceCard from "./ExperienceCard"
 
 const Education = () => {
   return (
@@ -21,7 +23,7 @@ const Education = () => {
 
                 <div className='content'>
                     {EducationData.map((val, id) => {
-                         return  val.category === "education" &&  <EducationCard key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                         return  <EducationCard key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
                       
                    
                     })}
@@ -35,8 +37,8 @@ const Education = () => {
               </div>
 
               <div className='content'>
-                {EducationData.map((val, index) => {
-                  return (val.category === "experience") && <EducationCard key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                {ExperienceData.map((val, index) => {
+                  return <ExperienceCard key={index} title={val.title} year={val.year}  desc={val.desc} />
                   
                 })}
               </div>

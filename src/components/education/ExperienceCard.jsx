@@ -1,6 +1,6 @@
 import React from "react"
 
-const EducationCard = (props) => {
+const ExperienceCard = (props) => {
   return (
     <>
       <div className='box btn_shadow'>
@@ -8,9 +8,6 @@ const EducationCard = (props) => {
           <div className='title'>
             <h2>{props.title}</h2>
             <span>{props.year}</span>
-          </div>
-          <div className='rate'>
-            <button className='btn_shadow '>{props.rate}</button>
           </div>
         </div>
         <hr />
@@ -20,4 +17,4 @@ const EducationCard = (props) => {
   )
 }
 
-export default EducationCard
+export default ExperienceCard

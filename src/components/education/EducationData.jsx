@@ -23,30 +23,7 @@ const EducationData = [
       desc: "Currently pursuing my third year Bachelor of Engineering in Computer Science and Engineering",
       rate: "8.85 / 10 ",
     },
-    {
-      id: 4,
-      category: "experience",
-      year: "Internship (2022 - present) ",
-      title: "Samsung Internship ",
-      desc: "currently interning at Samsung R & D Institute, India under PRISM program",
-      
-    },
-    {
-      id: 5,
-      category: "experience",
-      year: "Internship ((2022 - present) ",
-      title: "Samsung Intern PRISM  Program",
-      desc: "currently interning at Samsung R & D Institute, India under PRISM program",
-      
-    },
-    {
-      id: 6,
-      category: "experience",
-      year: "Internship (2022 - present) ",
-      title: "Samsung Intern  PRISM  Program",
-      desc: "currently interning at Samsung R & D Institute, India under PRISM program",
-      
-    },
+ 
   
   ]
   
