@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -106,6 +107,7 @@ button {
     1px 25px 35px rgba(16,16,16,0.2),
     1px 30px 60px rgba(16,16,16,0.4);
 }
+
 h1 {
   color: #3c3e41;
 }

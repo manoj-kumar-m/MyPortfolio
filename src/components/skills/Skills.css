@@ -1,0 +1,45 @@
+.Skills .slider img{
+    width: 100px;
+    height: 100px;
+}
+.skills-row{
+    width: 100%;
+}
+.Skills .slider .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+.Skills .slider .slide-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.slider-content h3{
+    text-align: center;
+    font-size: 24px;
+    color: #ff014f;
+    padding: 20px 0 5px 0;
+}
+.img_shadow {
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    color: #000;
+    transition: 0.5s;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    margin-bottom: 10px;
+}
+
+.slider-content{
+    border: 2px solid black;
+    margin-bottom: 25px;
+}

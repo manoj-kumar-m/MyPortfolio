@@ -4,8 +4,9 @@ import './App.css'
 import Home from './components/home/Home'
 import Projects from './components/projects/Projects'
 import Education from './components/education/Education'
-import Blog from './components/blog/Blog'
+// import Blog from './components/blog/Blog'
 import Contact from './components/contact/Contact'
+import Skills from './components/skills/Skills'
 const App = () => {
   useEffect(() => {
     
@@ -26,8 +27,9 @@ const App = () => {
         <Header />
         <Home />
         <Education />
+        <Skills/>
         <Projects />
-        <Blog />
+        {/* <Blog /> */}
         <Contact/>
      
       </>
