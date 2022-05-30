@@ -9,7 +9,7 @@ const Projects = () => {
           
       <section className='Portfolio top' id='projects'>
         <div className='container'>
-            <div className='heading text-center '>
+            <div className='heading text-center uppercase'>
                 <h1>Projects</h1>
             </div>
 

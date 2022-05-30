@@ -8,7 +8,7 @@ const Education = () => {
     <>
       <section className='Resume' id='education'>
         <div className='container top'>
-          <div className='heading text-center'>
+          <div className='heading text-center uppercase'>
             <h1>My Resume</h1>
           </div>
 
@@ -16,7 +16,7 @@ const Education = () => {
             <div className='left'>
                 <div className='heading'>
                     <h4>2007-Present</h4>
-                    <h1>Education</h1>
+                    <h2>Education</h2>
                 </div>
 
                 <div className='content'>
@@ -31,7 +31,7 @@ const Education = () => {
             <div className='left'>
               <div className='heading'>
                 <h4>2022-present</h4>
-                <h1>Experience</h1>
+                <h2>Experience</h2>
               </div>
 
               <div className='content'>

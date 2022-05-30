@@ -177,7 +177,7 @@ html {
   position: absolute;
   width: 2px;
   height: 150px;
-  background: #fff;
+  background: rgb(0, 200, 255);
   z-index: 13;
   border-radius: 6px;
 }

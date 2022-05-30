@@ -32,7 +32,7 @@ const Blog = () => {
     <>
       <section className='Testimonial' id='blog'>
         <div className='container'>
-          <div className='heading text-center'>
+          <div className='heading text-center uppercase'>
             
             <h1>Blogs</h1>
           </div>
