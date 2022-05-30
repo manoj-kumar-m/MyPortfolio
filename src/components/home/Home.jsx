@@ -51,7 +51,7 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>I love to build web applicaations for productive uses and am a passionate learner and coder. I am also a competitive coding enthusiast and am working on excelling at these skills.</p>
+            <p>I love to build web applications for productive uses and am a passionate learner and coder. I am also a competitive coding enthusiast and am working on excelling at these skills.</p>
 
             <div className='hero_btn'>
               <div className='col_1'>

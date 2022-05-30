@@ -234,7 +234,7 @@ html {
   }
   .hero p{
     font-size: 16px;
-    padding: 0 40px;
+    padding: 0 30px;
   }
   .hero .f_flex {
     flex-direction: column;
