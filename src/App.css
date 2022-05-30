@@ -204,4 +204,8 @@ input {
     width: 100%;
   }
 }
-
+@media (max-width: 420px) {
+.heading h1 {
+  font-size: 50px;
+}
+}
