@@ -40,6 +40,9 @@
 }
 
 .slider-content{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-bottom: 25px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
 }
