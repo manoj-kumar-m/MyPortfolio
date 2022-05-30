@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Resume .heading h1 {
     font-size: 40px;
   }

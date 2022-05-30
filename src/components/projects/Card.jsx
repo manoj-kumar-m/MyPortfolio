@@ -43,7 +43,7 @@ const Card = (props) => {
             </div>
             <div className='modal-text right'>
               
-              <h1>{props.title}</h1>
+                <h1>{props.title}</h1>
                 <p>{props.content}</p>
                 <h3>Langauges</h3>
                 {props.language.map((val,i) => {
@@ -64,10 +64,10 @@ const Card = (props) => {
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                     <i class='bx bx-x'></i>
               </button>
-              </div>
-              </div>
             </div>
+          </div>
         </div>
+      </div>
       )}
     </>
   )

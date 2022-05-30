@@ -33,7 +33,7 @@ const Header = () => {
               <li><a href='#education'>EDUCATION</a></li>
               <li><a href='#skills'>SKILLS</a></li>
               <li><a href='#projects'>PROJECTS</a></li>
-              <li><a href='#blog'>BLOG</a></li>
+              <li><a href='#blog'>BLOGS</a></li>
               <li>
                 
               <button ><a href='#contact' className='home-btn'>CONTACT</a></button>

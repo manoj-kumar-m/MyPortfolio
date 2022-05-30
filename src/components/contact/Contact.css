@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Contact{
   margin-bottom: 100px;
 }
