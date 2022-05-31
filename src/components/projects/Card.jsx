@@ -28,7 +28,7 @@ const Card = (props) => {
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
-            <i class='bx bx-right-arrow-alt' ></i>
+            <i class='bx bx-arrow-back bx-fade-right' ></i>
           </a>
         </div>
       </div>
@@ -57,7 +57,7 @@ const Card = (props) => {
                 </button>
                 <a href={props.gitlink} target="blank">
                   <button className='btn_shadow'>
-                    VIEW PROJECT<i class='bx bx-chevron-right'></i>
+                    VIEW PROJECT<i class='bx bx-link-external'></i>
                   </button>
                 </a>
               </div>

@@ -13,13 +13,17 @@ html {
 }
 .Portfolio .box:hover {
   background: none;
-  transform: translateY(-0);
+  transform: scale(1.05);
 }
 .card{
-
+  transition: .5 all ease;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+.card:hover{
+  
+
 }
 
 .Portfolio .img {
@@ -48,14 +52,18 @@ html {
   letter-spacing: 2px;
   font-weight: 500;
 }
+.Portfolio .title{
+  display: flex;
+  flex-direction: row;
+}
 .Portfolio .arrow {
-  position: absolute;
-  right: 30px;
-  bottom: 11%;
-  transform: rotate(-45deg);
+
+  font-size: 22px;
   color: #ff014f;
-  opacity: 0;
-  transition: 0.5s;
+  transform: rotateY(180deg);
+  opacity: 1;
+  transition: 0.2s;
+  margin-left: 20px;
 }
 .Portfolio .title:hover .arrow {
   opacity: 1;

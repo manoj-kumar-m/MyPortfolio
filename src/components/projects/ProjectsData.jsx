@@ -49,15 +49,15 @@ const Projects_Data = [
       gitlink: "https://github.com/manoj-kumar-m/Food-Ordering-System",
       languages:['C']
     },
-    {
-      id: 6,
-      category: "WEB DESIGN",
-      totalLike: "690",
-      title: "App for tecnology & services",
-      image: "https://picsum.photos/3840",
-      content: "",
-      gitlink: "https://github.com/manoj-kumar-m/travel-guide",
-      languages:['']
-    },
+    // {
+    //   id: 6,
+    //   category: "WEB DESIGN",
+    //   totalLike: "690",
+    //   title: "App for tecnology & services",
+    //   image: "https://picsum.photos/3840",
+    //   content: "",
+    //   gitlink: "https://github.com/manoj-kumar-m/travel-guide",
+    //   languages:['']
+    // },
   ]
   export default Projects_Data
