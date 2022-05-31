@@ -30,14 +30,14 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="skills-col">
                     <div className="slider-content">
                         <h3>Frameworks</h3>
                         <div className="slider">
-                            <div className="slide-map"> 
+                            <div className="slide-map1"> 
                                 { SkillsData.map((val,i)=> {
                                     return ( val.head === 'Frameworks' &&
-                                        <div className="image">
+                                        <div className="image1">
                                             <img src={val.img} alt="blank" key={i} className="img_shadow"/>
                                             <h4 key={val.id}>{val.title}</h4>
                                         </div>
@@ -46,13 +46,15 @@ const Skills = () => {
                             </div>  
                         </div>
                     </div>
+                </div>
+                <div className="skills-col">
                     <div className="slider-content">
                         <h3>Database</h3>
                         <div className="slider">
-                            <div className="slide-map"> 
+                            <div className="slide-map1"> 
                                 { SkillsData.map((val,i)=> {
                                     return ( val.head === 'Database' &&
-                                        <div className="image">
+                                        <div className="image1">
                                             <img src={val.img} alt="blank" key={i} className="img_shadow"/>
                                             <h4 key={val.id}>{val.title}</h4>
                                         </div>

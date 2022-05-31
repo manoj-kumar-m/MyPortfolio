@@ -25,10 +25,16 @@ const Contact = () => {
     event.preventDefault()
 
     emailjs.sendForm('service_r9lusad', 'template_brnmbzf', event.target, 'kdK_Dr-BYw9yITW7T')
-      .then(res => console.log(res))
-      .catch(err => console.log(err))
+      .then(res => alert("Message Sent Successfully"))
+      .catch(err => alert("Message Not Sent"))
     
-
+    setData({
+      fullname: "",
+      phone: "",
+      email: "",
+      subject: "",
+      message: "",
+    })
   }
   return (
     <>
