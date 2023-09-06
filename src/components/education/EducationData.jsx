@@ -12,7 +12,7 @@ const EducationData = [
       category: "education",
       year: "College of Studies (2017 - 2019) ",
     title: "Alvas Pre-University College",
-      desc: "Completed my first and second PUC in PCMB course in Alvas PU College",
+      desc: "Completed my first and second PUC in PCMB course in Alvas Pre-University College",
       rate: "91.67 %",
     },
     {
@@ -21,7 +21,7 @@ const EducationData = [
       year: "Engineering (2019 - 2023) ",
       title: "Ramaiah Institute Of Technology",
       desc: "Currently pursuing my third year Bachelor of Engineering in Computer Science and Engineering",
-      rate: "8.85 / 10 ",
+      rate: "8.82 / 10 ",
     },
  
   
