@@ -18,7 +18,7 @@ const EducationData = [
     {
       id: 3,
       category: "education",
-      year: "Engineering (2019 - present) ",
+      year: "Engineering (2019 - 2023) ",
       title: "Ramaiah Institute Of Technology",
       desc: "Currently pursuing my third year Bachelor of Engineering in Computer Science and Engineering",
       rate: "8.85 / 10 ",
