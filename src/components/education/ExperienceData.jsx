@@ -5,7 +5,7 @@ const ExperienceData = [
       category: "experience",
       year: "Internship (Jun-2022 to present) ",
       title: "Azul Systems",
-      desc: "Junior Software Engineering Intern at Azul Systems with tech stacks JAVA, BASH, C",
+      desc: "Junior Software Engineering Intern at Azul Systems with tech-stacks JAVA, BASH, C",
       
     },
     {
