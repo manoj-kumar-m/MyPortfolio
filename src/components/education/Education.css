@@ -89,15 +89,55 @@ html {
   .Resume .box:hover.box::before {
     background: #ff3a75;
   }
+
+  @media (max-width: 1280px) {
+    .Resume .box::after {
+      width: 40px;
+    }
+    
+    .Resume .rate .btn_shadow {
+      padding: 15px 20px;
+      width: max-content;
+    }
+  }
+
+  @media (max-width: 968px) {
+    .Resume p {
+      font-size: 16px;
+    }
+    .Resume .heading h2 {
+      font-size: 32px;
+    }
+    .Resume .left::after {
+      top: 13%;
+      height: 84%;
+      left: 2px;
+
+    }
+    .Resume .rate .btn_shadow {
+      padding: 15px 20px;
+      width: max-content;
+    }
+    .Resume .box::after {
+      width: 30px;
+    }
+  }
+
   @media (max-width: 768px) {
+    .Resume p {
+      font-size: 18px;
+    }
     .Resume .d_flex {
       flex-direction: column;
     }
     .Resume .left::after {
       top: 14%;
-      height: 128vh;
-      left: 2px;
+      height: 84%;
+      left: 0px;
 
+    }
+    .Resume .box::after {
+      width: 44px;
     }
     
   }
